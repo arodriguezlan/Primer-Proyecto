@@ -8,6 +8,7 @@
 .div1{
     background-color: darkgreen;
     z-index: 2;
+    display: inline;
 }
 
 
