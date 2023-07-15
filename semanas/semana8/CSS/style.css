@@ -40,3 +40,23 @@ color:cyan
 div#menu *{
     background-color: cadetblue;
 }
+
+/* PSEUDOCLASES */
+div#menu h1:hover{
+    background-color: red;
+}
+.nombre:focus{
+    background-color: crimson;
+}
+
+.imagen{
+    width: 100px;
+    height: 100px;
+}
+
+.imagen:hover{
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 15px 10px 5px 10px brown;
+}
