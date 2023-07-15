@@ -1,0 +1,42 @@
+*{
+    background-color: black;
+    color: hsl(0, 17%, 93%);
+}
+/* DESCENDIENTE [ESPACIO]*/
+/* Forma 1: MAS ESPECIFICA*/
+div.menu div.options ul li a{
+    color: orange;
+}
+/* Forma 2: NO ES ESPECIFICO, MIENTRAS QUE ARRIBA ES MUCHO MAS ESPECIFICO, DONDE PUEDO REUTIZARLO EN UN FUTURO */
+
+/* 
+.menu{
+    color: orange;
+} */
+
+/* COMBINADOR HIJO [>] */
+
+div#page > div{
+color: red;
+}
+
+/* COMBINADOR HERMANO CONTIGUO [+] */
+div#page +div+div{
+color: wheat;
+}
+
+
+div.post span + span{
+color:plum
+}
+
+
+/* HERMANO [~] */
+div.post strong ~ strong{
+color:cyan
+}
+
+/* es mas universal */
+div#menu *{
+    background-color: cadetblue;
+}

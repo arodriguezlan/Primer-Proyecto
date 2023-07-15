@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinación de Selectores</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    COMBINACION DE SELECTORES
+    <!--DESCENDIENTE-->
+    <div class="menu">
+        <div class="options">
+            <ul>
+                <li>
+                    <a href="https://www.angel.com/es">Angel Studios</a>
+                </li>
+                <li>
+                    <a href="https://www.netflix.com/cr/login">Netflix</a>
+                </li>
+                <li>
+                    <a href="https://www.hbomax.com/cr/es">HBO MAX</a>
+                </li>
+                <li>
+                    <a href="https://www.universalplus.com/">Universal Plus</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!--NO SE APLICA EL FORMATO PORQUE LA REGLA SE LO APLICA A DIV,QUE HEREDA DIV, MIENTRAS QUE EN ESTA COMPRENDE NAV, POR ENDE NO APLICA-->
+    <div class="menu">
+        <span class="options">
+            <ul>
+                <li>
+                    <a href="https://www.angel.com/es">Angel Studios</a>
+                </li>
+                <li>
+                    <a href="https://www.netflix.com/cr/login">Netflix</a>
+                </li>
+                <li>
+                    <a href="https://www.hbomax.com/cr/es">HBO MAX</a>
+                </li>
+                <li>
+                    <a href="https://www.universalplus.com/">Universal Plus</a>
+                </li>
+            </ul>
+        </span>
+    </div>
+
+    <!--COMBINADOR HIJO-->
+    <!--SOLO SE LE APLICA A EL HIJO O HIJOS-->
+
+    <div id="page">
+        <div>
+            Hijo directo
+            <div>soy nieto</div>
+        </div>
+        <div>
+            Soy hijo menor
+        </div>
+    </div>
+
+    <!--COMBINADOR HERMANO CONTIGUO-->
+
+    <!--EJEMPLO 1-->
+    <div id="page">
+        <div>
+            Hijo directo
+        </div>
+            <div>
+                soy nieto
+            </div>
+        <div>
+            Hijo menor
+        </div>
+        
+    </div>
+    <div>Adyacente 1</div>
+    <div>Adyacente 2</div>
+    <div>Adyacente 3</div>
+
+    <!--EJEMPLO 2-->
+    <div class="post">
+        <span>Adyacente 1 <br>
+            <span>Hola</span>
+        </span>
+        <span>Adyacente 2</span>
+    </div>
+
+    <!--HERMANO no ocupa ser adyacente-->
+    <div class="post">
+    <div>esta es la raiz</div>
+    <span>ESTE SE LE APLICA POR SER ADYACENTE</span>
+    <strong>STRONG 1</strong>
+    <div>hola2</div>
+    <strong>strong hermana</strong>
+    <strong>strong hermana 2</strong>
+    </div>
+
+
+    <div id="menu">
+    <nav>
+        holaaaaaaa
+    </nav>
+    <span>
+        como
+    </span>
+    <div>estas</div>
+    </div>
+
+
+</body>
+</html>
