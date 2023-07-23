@@ -12,8 +12,9 @@ div.header header h1{
     color: white;
     text-align: center;
     width: 1481px;
-    height: 100px;
+    height: 70px;
     margin-top: 0;
+    display: block;
 }
 
 
