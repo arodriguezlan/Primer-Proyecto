@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+
+}
+
+div.header header h1{
+    background-color: darkcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    width: 1481px;
+    height: 100px;
+    margin-top: 0;
+}
+
+
+div.menu div.options ul{
+    display: flex; /* Utiliza flexbox para que las opciones del menú estén en una sola línea */
+    height: 40px; /* Set the desired height for the square */
+    margin: 0 0 0 -40px; /* Espaciado entre las opciones del menú. 0 en el margen izquierdo, 20px en el margen derecho */
+    padding: 0;
+    margin: 0;
+    margin-top:-25px;
+
+}
+
+div.menu div.options ul li {
+    list-style: none; /* Quita las viñetas de la lista */
+    background-color:rgb(181, 151, 151);
+    width: 1485px; /* Set the desired width for the square */
+    text-align: center;
+    border: 1px solid #060606; /* Agrega un borde para resaltar cada opción del menú */
+    border-radius: 5px; /* Agrega esquinas redondeadas a las opciones del menú */
+
+}
+div.menu div.options ul li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px; /* Espaciado entre las opciones del menú */
+    padding: 10px; /* Ajusta el relleno de cada opción del menú */
+    display: block;
+   
+}
