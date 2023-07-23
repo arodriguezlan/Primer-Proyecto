@@ -1,12 +1,13 @@
 body {
     height: 100vh;
-    background: linear-gradient(90deg, #42D18D 50%, white 50%), url('images/fondo.jpg') top right no-repeat;
+    background: linear-gradient(90deg, #42D18D 50%, rgb(233, 227, 227) 50%), url('images/fondo.jpg') top right no-repeat;
   }
 
   .persona{
     width: 300px;
-    height: 300px;
-    
-    
-   
+    height: 300px; 
+  }
+
+  div.formulario{
+   display: center;
   }
