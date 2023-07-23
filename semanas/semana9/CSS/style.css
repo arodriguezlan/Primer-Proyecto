@@ -1,42 +1,51 @@
 body {
-    height: 100vh;
-    background: linear-gradient(90deg, #42D18D 50%, rgb(233, 227, 227) 50%), url('images/fondo.jpg') top right no-repeat;
-  }
-
-  .persona{
-    width: 300px;
-    height: 300px; 
-    margin: 10px 0 0 60px;    
-  }
-
-  form,h3,h4{
-    text-align: left;
-  }
-
-  div.formulario {
-    width: 500px;
-    height: 550px;
-    border-radius: 50px;
-    margin: -140px 0 0 140px;
-       
-  }
-  .form-control.rounded-pill {
-    border-radius: 50px; /* Ajusta este valor para cambiar la curvatura del borde */
+  background: linear-gradient(90deg, #42D18D 50%, rgb(233, 227, 227) 50%), url('image/fondo.jpg');
+  outline: none; /* Para eliminar el borde de enfoque (focus) */
+  margin: 0;
+  padding: 0;
 }
 
-/* Estilos iniciales del botón */
-.btn-custom {
-  background-color: #42D18D;
+.white-text {
   color: white;
 }
 
-/* Estilos del botón cuando se agrega la clase 'clicked' */
-.btn-custom.clicked {
-  background-color: black;
+div i {
+  margin: 11px 25px 0 50px;
 }
 
+.persona {
+  width: 300px;
+  height: 300px;
+  margin: 10px 0 0 60px;
+}
 
+form,
+h3,
+h4 {
+  text-align: left;
+}
 
+div.formulario {
+  width: 500px;
+  height: 550px;
+  border-radius: 50px;
+  margin: -140px 0 0 140px;
+}
 
+.form-control.rounded-pill {
+  border-radius: 50px;
+}
+
+.custom-form .login {
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Estilos personalizados para el botón */
+#loginBtn {
+  background-color: #42D18D;
+  border-color: #42D18D;
+  color: white;
+}
 
 
