@@ -1,8 +1,6 @@
 body {
   background: linear-gradient(90deg, #42D18D 50%, rgb(233, 227, 227) 50%), url('image/fondo.jpg');
   outline: none; /* Para eliminar el borde de enfoque (focus) */
-  margin: 0;
-  padding: 0;
 }
 
 .white-text {
@@ -16,7 +14,7 @@ div i {
 .persona {
   width: 300px;
   height: 300px;
-  margin: 10px 0 0 60px;
+  margin: 0px 0 0 -60px;
 }
 
 form,
@@ -48,4 +46,6 @@ div.formulario {
   color: white;
 }
 
-
+.input{
+  width: 50px;
+}
