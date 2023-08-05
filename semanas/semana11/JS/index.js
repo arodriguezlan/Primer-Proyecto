@@ -98,8 +98,8 @@ const listaPersonas=[{
 {
     id:'122',
     nombre:'juana',
-    apellido:'',
-    edad: ''
+    apellido:'PEREZ',
+    edad: '20'
 }
 ]
 
@@ -113,7 +113,7 @@ const listaResults = listaPersonas.map((persona, index) => {
     };
   }).filter(x => x.edad > 18);
   
-  console.log(listaResults);
+  console.log(...listaResults);
 
   
 
